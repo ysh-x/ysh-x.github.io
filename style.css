@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+    font-family: "Noto Sans", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0.5em;
+}
+
+.title {
+    display: flex;
+    margin: 0.5em;
+    width: 95%;
+    justify-content: center;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.nav-flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    width: 95%;
+    gap: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    margin-top: 2em;
+    width: 95%;
+    gap: 15px;
+}
+
+.nav-item {
+    padding: 0.2em;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #EB9C46;
+    opacity: 80%;
+}
+
+.sel-nav-item {
+    padding: 0.2em;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #C05832;
+    opacity: 90%;
+}
+
+.nav-item a {
+    color: #fff;
+    width: max-content;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sel-nav-item a {
+    color: #b3b3b3;
+    font-weight: 800;
+}
+
+.flex-child {
+    width: 100%;
+    padding: 0.5em;
+    height: 20%;
+    column-gap: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #F4C2C2;
+    opacity: 80%;
+    color: #3F3F3F;
+}
+
+.tech-flex-child {
+    width: 100%;
+    height: 20%;
+    column-gap: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #090909;
+    opacity: 80%;
+    color: #eae8e8;
+}
+
+h2,
+h1 {
+    color: #524D3C;
+}
+
+h3 {
+    padding: 0.5em;
+    margin-bottom: 1.2em;
+}
+
+.flex-top-child {
+    width: 100%;
+    padding-left: 0%;
+    padding: 1em;
+    height: 20%;
+    column-gap: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #EB9C46;
+    opacity: 70%;
+}
+
+.flex-top-child h1 {
+    color: #C05832;
+}
+
+img {
+    display: flex;
+    margin-bottom: 1.2em;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 0.5em;
+    margin-bottom: 0.4em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+ul a {
+    text-decoration: none;
+}
+p {
+    margin: 1em;
+    padding: 0.5em;
+    margin-top: 1.2em;
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.tech-stack {
+    background-color: #FCC997;
+    text-align: center;
+}
+
+.tech-stack p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0.4em;
+    padding: 0.3em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #524D3C;
+}
+
+.links-flex {
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.yt-link,
+.gh-link {
+    width: 70%;
+    background-color: #282828;
+    padding: 1em;
+    font-size: 1.2em;
+    color: #b3b3b3;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.yt-link a,
+.gh-link a {
+    color: #b3b3b3;
+}
+
+ul li {
+    margin: 0;
+    padding: 0.7em;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #524D3C;
+}
+
+li:nth-child(odd) {
+    background-color: #FCC997;
+}
+li a img {
+    width: 20%;
+    height: 20%;
+}
+
+.icon li:nth-child(even) {
+    background-color: #fff;
+}
+li:nth-child(even) {
+    background-color: #EB9C46;
+}
+
+.scaler {
+    background-color: #3e7da9 !important;
+}
+.scaler a{
+    color: #fff !important;
+}
+
+.leetcode {
+    background-color: #EB9C46 !important;
+}
+.leetcode a{
+    color: #282828 !important;
+}
+
+.hackerrank {
+    background-color: #329f14 !important;
+}
+.hackerrank a{
+    color: #fff !important;
+}
+
+.linkedin {
+    background-color: #0e76a8 !important;
+}
+.linkedin a{
+    color: #fff !important;
+}
+
+
+.github {
+    background-color: #3F3F3F !important;
+}
+.github a{
+    color: #fff !important;
+}
+@media all and (min-width: 700px) {
+    .container {
+        width: 70%;
+        margin: auto;
+    }
+    p {
+        font-size: 1.4em;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .nav-item:hover {
+        background-color: #C05832;
+        opacity: 90%;
+    }
+    img {
+        width: 70%;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .yt-link :hover {
+        color: #e16b6b;
+    }
+    .gh-link :hover {
+        color: #e16b6b;
+    }
+}
